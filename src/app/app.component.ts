@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   colorActual: string = '#d8cbe1';
-  nombreColor: string = 'Blanco';
+  nombreColor: string = 'Blancoso';
 
   actualizarcolor(event: { hex: string, nombre: string }) {
     this.colorActual = event.hex;
