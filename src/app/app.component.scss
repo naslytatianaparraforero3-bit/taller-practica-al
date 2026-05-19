@@ -1,0 +1,15 @@
+.contenedor-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta {
+  background-color: #6046a8;
+  padding: 3rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px -5px rgba(202, 122, 248, 0.3);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}

@@ -7,6 +7,6 @@ import { Component, Input } from '@angular/core';
   styleUrl: './cuadro-color.component.scss'
 })
 export class CuadroColorComponent {
-  @Input() color: string='';
-  @Input() nombre: string='';
+@Input() color: string = '';
+@Input() nombre: string = '';
 }

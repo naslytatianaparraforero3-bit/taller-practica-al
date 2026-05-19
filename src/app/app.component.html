@@ -1,11 +1,11 @@
-<div class="controlador-principal">
-  <div class="tarjeta"> 
+<div class="contenedor-principal">
+  <div class="tarjeta">
     <app-cuadro-color
     [color]="colorActual"
     [nombre]="nombreColor">
   </app-cuadro-color>
   <app-selector-colores
-    (colorCambiado)="actualizarColor($event)">
+  (colorCambiado)="actualizarcolor($event)">
   </app-selector-colores>
   </div>
 </div>
