@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  colorActual: string = '#CBD5E1';
+  colorActual: string = '#d8cbe1';
   nombreColor: string = 'Blanco';
 
   actualizarcolor(event: { hex: string, nombre: string }) {
